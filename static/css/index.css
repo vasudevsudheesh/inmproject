@@ -1,0 +1,110 @@
+ /* Style for the top navbar */
+ .topnav {
+    background-color: #00cc36;
+    overflow: hidden;
+  }
+
+  .topnav .name img {
+    height: 40px;
+    padding: 20px 0;
+    margin-right: 10px; /* Add this line to move the image to the right */
+}
+
+  /* Style for the links in the top navbar */
+  .topnav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Style for the active link in the top navbar */
+  .topnav1 {
+    background-color: #0088cc;
+    height: 80px;
+    padding: 20px 0;
+    margin: 10px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  /* .active_about {
+    background-color: #2e51c5;
+    height: 80px;
+    padding: 20px 0;
+    margin: 10px;
+    margin-left: 5px;
+    text-align: center;
+    
+  }
+  .active_contact {
+    background-color: #c5702e;
+    height: 80px;
+    padding: 20px 0;
+    margin: 10px;
+    margin-left: 5px;
+    text-align: center;
+  } */
+
+  /* Style for the name in the top navbar */
+  .topnav .name {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Style for the image in the top navbar */
+  .topnav img {
+    float: left;
+    height: 40px;
+    padding: 7px 0;
+  }
+
+  /* Style for the bottom navbar */
+  .bottomnav {
+    background-color: #0088cc;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  /* Style for the links in the bottom navbar */
+  .bottomnav a {
+    float: left;
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Style for the active link in the bottom navbar */
+  .bottomnav .active_feedback {
+    background-color: #4caf50;
+    color: white;
+  }
+  .bottomnav .active_help {
+    background-color: #2e51c5;
+    color: white;
+  }
+  .bottomnav .active_privacy {
+    background-color: #c5702e;
+    color: white;
+  }
+  .bottomnav .active_services {
+    background-color: #c52e7a;
+    color: white;
+  }
+  /* Style for the image in the top navbar */
+    /* Style for the links in the login-register div */
+    .login-register a {
+    border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    }

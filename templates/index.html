@@ -1,0 +1,49 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Website</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'css/index.css' %}"
+    />
+  </head>
+
+  <body>
+    <div class="topnav">
+      <div class="name">
+        <img src="{% static 'vadivelu.jpg' %}" alt="Movie Lovers Logo" />
+        <a href="#"><h3>MOVIE LOVERS</h3></a>
+      </div>
+      <div class="topnav1">
+        <a class="active_home" href="/templates/index.html">Home</a>
+        <a class="active_about" href="/templates/about.html">About</a>
+        <a class="active_contact" href="/templates/contact.html">Contact</a>
+      </div>
+      <div class="login-register">
+        <a href="/templates/login.html">Login</a>
+        <a href="/templates/register.html">Register</a>
+      </div>
+    </div>
+    <!-- Your page content goes here -->
+    <h1>THIS IS THE OFFICIAL MOVIELOVERS PAGE</h1>
+    <a href="/static/vadivelu.jpg">
+      <img src="{% static 'vadivelu.jpg' %}" alt="My Image" />
+    </a>
+    <footer>
+      <p>Thank you for visiting our website!</p>
+    </footer>
+    <div class="bottomnav">
+      <a class="active_services" href="/templates/termsnserviece.html"
+        >Terms of Service</a
+      >
+      <a class="active_privacy" href="/templates/privacypolicy.html"
+        >Privacy Policy</a
+      >
+      <a class="active_help" href="/templates/help.html">Help</a>
+      <a class="active_feedback" href="/templates/feedback.html">Feedback</a>
+    </div>
+  </body>
+</html>
